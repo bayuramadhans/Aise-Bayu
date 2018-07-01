@@ -83,6 +83,11 @@
                         </li>
                         <li class="nav-label">Akun</li>
                         <li>
+                            <a href="{{ url('/password/reset') }}" aria-expanded="false">
+                            <i class="fa fa-edit"></i>
+                            <span class="hide-menu">Ganti Password</span></a>
+                        </li>
+                        <li>
                             <a href="#" aria-expanded="false">
                             <i class="fa fa-power-off"></i>
                             <span class="hide-menu">Keluar</span></a>
@@ -176,45 +181,51 @@
                                 </table>
                               </div>
                             <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ketua-edit">Edit</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tim-edit">Edit</button>
                             <!-- Modal -->
-                            <div class="modal fade" id="ketua-edit" tabindex="-1" role="dialog" aria-hidden="true">
+                            <div class="modal fade" id="tim-edit" tabindex="-1" role="dialog" aria-hidden="true">
                               <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                   <div class="modal-header">
-                                    <h5 class="modal-title">Edit Data Ketua</h5>
+                                    <h5 class="modal-title">Edit Data Tim</h5>
                                   </div>
                                   <div class="modal-body">
                                     <form class="form p-t-20">
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Nama Ketua</label>
+                                            <label for="exampleInputuname">Nama Tim</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="namaketua" placeholder="Nama Ketua">
+                                                <input type="text" class="form-control" id="namaketua" placeholder="Nama Tim">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Tempat Tanggal Lahir</label>
+                                            <label for="exampleInputuname">Kota</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="namaanggota" placeholder="Nama Anggota">
+                                                <input type="text" class="form-control" id="namaanggota" placeholder="Kota">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Alamat</label>
+                                            <label for="exampleInputuname">Asal Sekolah</label>
                                             <div class="input-group">
                                                 <input type="text" class="form-control" id="asalsekolah" placeholder="Asal Sekolah">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Nomor Telepon</label>
+                                            <label for="exampleInputuname">Nama Pembina</label>
                                             <div class="input-group">
-                                                <input type="email" class="form-control" id="emailketua" placeholder="Email Ketua">
+                                                <input type="email" class="form-control" id="emailketua" placeholder="Nama Pembina">
                                             </div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Pas Foto</label>
+                                            <label for="exampleInputuname">Kontak Pembina</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="nomorhp" placeholder="Nomor HP">
+                                                <input type="email" class="form-control" id="emailketua" placeholder="Kontak Pembina">
                                             </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="exampleInputuname">Bukti Pembayaran</label>
+                                            <div class="file btn btn-primary">
+                                							<input type="file" name="file"/>
+                                						</div>
                                         </div>
                                     </form>
                                     </div>
@@ -340,9 +351,9 @@
                                   <div class="modal-body">
                                     <form class="form p-t-20">
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Nama Anggota</label>
+                                            <label for="exampleInputuname">Nama Ketua</label>
                                             <div class="input-group">
-                                                <input type="text" class="form-control" id="namaketua" placeholder="Nama Anggota">
+                                                <input type="text" class="form-control" id="namaketua" placeholder="Nama Ketua">
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -365,13 +376,13 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputuname">Pas Foto</label>
-                                            <div class="btn btn-primary">
-                                							<input type="file" name="file" size="100%"/>
+                                            <div class="file btn btn-primary">
+                                							<input type="file" name="file"/>
                                 						</div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputuname">KTP</label>
-                                            <div class="btn btn-primary">
+                                            <label for="exampleInputuname">KTP</label>&nbsp
+                                            <div class="file btn btn-primary">
                                 							<input type="file" name="file"/>
                                 						</div>
                                         </div>
@@ -499,7 +510,7 @@
                                   <div class="modal-body">
                                     <form class="form p-t-20">
                                         <div class="form-group">
-                                            <label for="exampleInputuname">Nama Anggota</label>
+                                            <label for="exampleInputuname">Nama Ketua</label>
                                             <div class="input-group">
                                                 <input type="text" class="form-control" id="namaketua" placeholder="Nama Anggota">
                                             </div>
@@ -524,19 +535,21 @@
                                         </div>
                                         <div class="form-group">
                                             <label for="exampleInputuname">Pas Foto</label>
-                                            <div class="file btn btn-lg btn-primary">
-                                							Upload
+                                            <div class="file btn btn-primary">
                                 							<input type="file" name="file"/>
                                 						</div>
                                         </div>
                                         <div class="form-group">
-                                            <label for="exampleInputuname">KTP</label>
-                                            <div class="file btn btn-lg btn-primary">
-                                							Upload
+                                            <label for="exampleInputuname">KTP</label>&nbsp
+                                            <div class="file btn btn-primary">
                                 							<input type="file" name="file"/>
                                 						</div>
                                         </div>
                                     </form>
+                                    </div>
+                                    <div class="modal-footer">
+                                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                                      <button type="button" class="btn btn-primary">Simpan</button>
                                     </div>
                                   </div>
                                 </div>
