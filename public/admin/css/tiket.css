@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  color: #ffffff;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  height: 100%;
+}
+
+.container {
+  width: 795px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+section {
+  position: relative;
+  height: 280px;
+  width: 100%;
+  background-image: url("/img/3.jpg");
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+section .left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  width: 635px;
+  padding: 35px 0 0 60px;
+}
+section .right {
+  float: right;
+  width: 160px;
+  padding-top: 30px;
+}
+section .event {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 1.6em;
+  line-height: 35px;
+  text-transform: uppercase;
+}
+section .title {
+  margin-bottom: 0px;
+  color: #1E3261;
+  font-family: "Audiowide", cursive;
+  font-size: 25px;
+  line-height: 35px;
+}
+section .info {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+section .seats {
+  margin-bottom: 20px;
+  font-size: 8px;
+  text-transform: uppercase;
+  text-align: middle;
+}
+section .seats:last-child {
+  margin-bottom: 0;
+}
+section .seats span {
+  display: inline-block;
+  width: 200px;
+  margin-left: 0px;
+  padding: 10px;
+  color: #000;
+  background: rgba(255, 255, 255, 0.5);
+  font-family: "Kreon", serif;
+  font-size:13px;
+
+  vertical-align: middle;
+}

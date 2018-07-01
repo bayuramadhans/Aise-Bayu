@@ -1,0 +1,624 @@
+/*dimsat*/
+
+.flex-item {
+    text-align: center;
+}
+
+.flex-item .btn-lg {
+    margin-top: 20px;
+}
+
+.btn-alpro {
+    margin-right: 10px;
+}
+
+.bg {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-image: url('../img/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.bg-2 {
+    position: absolute;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-image: url('../img/bg-section-2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.bg-img {
+    width: 100%;
+}
+
+.bg-3  {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-3 .bg-img {
+    position: absolute;
+    width: 30%;
+    right: 0;
+    bottom: 10%;
+}
+
+.bg-4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-4 .bg-img {
+    position: absolute;
+    width: 60%;
+    bottom: 0;
+}
+
+.bg-4 {
+    position: absolute;
+    width: 100%;
+}
+
+.bg-5 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-5 .bg-img {
+    position: absolute;
+    width: 100%;
+    top: 3%;
+}
+
+.bg-7 {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+}
+
+.bg-7 .bg-img {
+    position: absolute;
+    /* transform: rotate(45deg); */
+    /* width: 20%; */
+    /* top: 30vh; */
+    /* left: 50%; */
+    width: 100%;
+    bottom: 0;
+}
+
+
+#particles-js {
+    background-color: #17182f;
+    height: 100vh;
+}
+
+#particles-js-2 {
+    background-color: #17182f;
+    height: 100vh;
+}
+
+#particles-js-3 {
+    background-color: #17182f;
+    height: 100vh;
+}
+
+#particles-js-4 {
+    background-color: #17182f;
+    height: 100vh;
+}
+
+#particles-js-5 {
+    background-color: #17182f;
+    height: 100vh;
+}
+
+#particles-js-6 {
+    background-color: #17182f;
+    height: 100vh;
+}
+#particles-js-7 {
+    background-color: #17182f;
+    height: 120vh;
+}
+
+.position-abs {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    font-family: Ailerons-Typeface;
+}
+
+.btn-warning:hover {
+    background-color: transparent !important;
+    color: #ffc107;
+}
+
+.judul-aise-landing {
+    font-family: Ailerons-Typeface;
+    font-size: 50px;
+    color: #ffc107;
+    width: 100%;
+    border-bottom: 2px solid white;
+}
+
+@keyframes scale {
+    50% {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+}
+
+.d-block .card {
+    width: 100% !important;
+}
+
+/* yossy */
+
+.what-is {
+    background-color: #2a2c55;
+    margin: 0 10%;
+    border-radius: 100px;
+    color: ghostwhite;
+    padding-top: 30px;
+    max-height: 400px;
+}
+
+.what-is h1 {
+    text-align: center;
+}
+
+.penjelasan {
+    padding: 50px 50px 100px 50px;
+}
+
+h1 span {
+    border-bottom: 2px solid #ffc107;
+    font-family: Ailerons-Typeface;
+    align-items: center;
+    color: white;
+}
+
+/* .section SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.super_container {
+    width: 100%;
+}
+
+.section {
+    padding: 50px 0;
+    font-family: Ailerons-Typeface;
+    color: #1a1a1a;
+}
+
+.section .container {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section h1 {
+    font-size: 2rem;
+}
+
+.section h2 {
+    font-size: 1.3rem;
+}
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tml {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.judul-tml {
+    color: white;
+}
+
+.judul-tml h1 {
+    text-align: center;
+}
+
+
+
+/*bayu*/
+
+.syarat {
+}
+
+.syarat h1 {
+    text-align: center;
+    color: white;
+    font-family: Ailerons-Typeface;
+    margin-bottom: 30px;
+}
+
+.syarat h4 {
+    text-align: center;
+    color: white;
+    font-family: Ailerons-Typeface;
+}
+
+.syarat_content {
+    position: relative;
+    top: 40%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.syarat_content h1 {
+    font-family: Ailerons-Typeface;
+    padding-right: 20%;
+    color: #002654;
+}
+
+.syarat_items {
+    margin-top: 30px;
+    padding-left: 20px;
+}
+
+.syarat_item {
+    margin-bottom: 20px;
+}
+
+.syarat_item:last-child {
+    margin-bottom: 0px;
+}
+
+.syarat_item span {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #FECB00;
+    color: #FFFFFF;
+    font-size: 15px;
+    border-radius: 50%;
+    float: left;
+}
+
+.syarat_item p {
+    font-family: Ubuntu-Regular;
+    display: block;
+    vertical-align: middle;
+    padding-left: 76px;
+    margin-bottom: 20px !important;
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix::before, .clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+.hadiah h1 {
+    margin-bottom: 5%;
+}
+
+.hadiah_title {
+    font-family: Ailerons-Typeface;
+    color: #FFFFFF;
+}
+
+.image_boxes {
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.kotak-hadiah {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    background: #3b3d78;
+    box-shadow: 0px 26px 38px rgba(0, 0, 0, 0.5);
+}
+
+.kotak-hadiah:hover {
+    box-shadow: 0px 26px 38px rgba(0, 0, 0, 0.5);
+}
+
+.kotak-hadiah-body {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.kotak-hadiah-title {
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 1.2;
+    margin-bottom: 5px;
+}
+
+.kotak-hadiah-text {
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.row-margin {
+    margin-bottom: 50px;
+}
+
+.gallery h1 {
+    margin-bottom: 40px;
+}
+
+#jssor_1 {
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 380px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.jssor1-009-spin {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.jssor1-009-spin img {
+    margin-top: -19px;
+    position: relative;
+    top: 50%;
+    width: 38px;
+    height: 38px;
+}
+
+.gallery-slides {
+    cursor: default;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 980px;
+    height: 380px;
+    overflow: hidden;
+}
+
+.jssorb051 {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+
+.jssorb051 .i {
+    width: 10px;
+    height: 10px;
+}
+
+.jssorb051 .i svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.jssorb051 .i {
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssorb051 .i .b {
+    fill: #ffffff;
+    fill-opacity: 0.5;
+}
+
+.jssorb051 .i:hover .b {
+    fill-opacity: .7;
+}
+
+.jssorb051 .iav .b {
+    fill-opacity: 1;
+}
+
+.jssorb051 .i.idn {
+    opacity: .3;
+}
+
+.jssora051 {
+    display: block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.jssora051 .a {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 360;
+    stroke-miterlimit: 1;
+}
+
+.jssora051:hover {
+    opacity: .8;
+}
+
+.jssora051.jssora051dn {
+    opacity: .5;
+}
+
+.jssora051.jssora051ds {
+    opacity: .3;
+    pointer-events: none;
+}
+
+.gallery-arrowleft {
+    width: 65px;
+    height: 65px;
+    top: 0px;
+    left: 35px;
+}
+
+.gallery-arrowright {
+    width: 65px;
+    height: 65px;
+    top: 0px;
+    right: 35px;
+}
+
+.gallery-arrowleft svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-arrowright svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery-img {
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+}
+
+.card {
+    width: 20rem;
+    position: absolute;
+}
+
+.card-body {
+    padding: 10px;
+}
+.narahubung {
+    width: 100%;
+    text-align:center;
+    align:center;
+}
+
+.narahubung h1 {
+    margin-bottom: 30px;
+}
+.nara {
+    padding: 30px 10px;
+    color:white;
+    border-radius: 40px;
+    background: #2a2c55;
+    box-shadow: 0px 26px 38px rgba(0, 0, 0, 0.5);
+}
+.number {
+    margin: 20px 0;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.ayr {
+    margin-top: 15%;
+    width: 100%;
+    text-align:center;
+    align:center;
+}
+
+.btn-ayr {
+    margin-top: 30px;
+}
+
+.btn-ayr button {
+    width: 200px;
+    margin: 0 10px;
+    padding: 20px 0 !important;
+    background-color: transparent;
+    border-radius: 30px;
+    border-bottom: 0;
+    border-right: 0;
+    border-color: yellow;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-ayr button:nth-child(2){
+    border: 1px solid yellow;
+    border-top: 0;
+    border-left: 0;
+}
+
+.btn-ayr button:hover{
+    border: 1px solid #2a2c55;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+}

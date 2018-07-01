@@ -1,0 +1,17 @@
+@charset "utf-8";
+@font-face {
+ font-family: Ailerons-Typeface;
+ src: url(/assets/font/Ailerons-Typeface.otf);
+}
+@font-face {
+ font-family: Ubuntu-Regular;
+ src: url(/assets/font/Ubuntu-Regular.ttf);
+}
+.super_container
+{
+	width: 100%;
+	overflow: hidden;
+}
+.button {
+  font-family: Ailerons-Typeface;
+}
